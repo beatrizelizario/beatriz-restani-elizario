@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    
+    <style>
+        /* --- IDENTIDADE VISUAL E VARIÁVEIS --- */
+        :root {
+            --primary-color: #2e7d32;     /* Verde Oliva/Sustentabilidade */
+            --secondary-color: #5d4037;   /* Tons de Terra/Produção */
+            --bg-light: #f5f5f5;          /* Fundo claro e limpo */
+            --text-dark: #212121;         /* Texto principal */
+            --text-light: #ffffff;        /* Texto em fundos escuros */
+            --accent-color: #ffb300;      /* Cor de foco para acessibilidade */
+        }
+
+        /* --- RESET E ESTILOS GERAIS --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* --- CABEÇALHO --- */
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .main-header ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        .main-header a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+
+        .main-header a:hover {
+            opacity: 0.8;
+        }
+
+        /* --- ACESSIBILIDADE VIA TECLADO --- */
+        .main-header a:focus, 
+        button:focus {
+            outline: 3px solid var(--accent-color);
+            outline-offset: 4px;
+        }
+
+        /* --- SEÇÃO HERO --- */
+        .hero-section {
+            padding: 80px 5%;
+            text-align: center;
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 25px auto;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            border: none;
+            padding: 12px 30px;
+            font-size:
